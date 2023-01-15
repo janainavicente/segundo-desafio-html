@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display:flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+    display: inline-flex
+}
+.header {
+    background-color:lightpink;
+    min-height: 150px;
+    display:inline-block;
+    text-align: center;
+    padding: 10px 20px 0px;
+    
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 30px;
+    display: inline-block;
+    text-align: center;
+
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+    
+}
+
+label{
+    width: 100px;
+    text-align:center;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.row{
+    padding: 30px;
+    display: inline-flex;
+    align-items: center;
+
+}
+.item{
+    margin: 10px;
+    display: inline-flex;
+
+}
+
+table{
+    border: solid 1px black;
+    box-shadow: 22px 22px 9px 0px rgba(0,0,0,0.65);
+-webkit-box-shadow: 22px 22px 9px 0px rgba(0,0,0,0.65);
+-moz-box-shadow: 22px 22px 9px 0px rgba(0,0,0,0.65);
+
+}  
+  
+table thead {
+    background-color: black;
+    color: white;
+}
+table tbody tr:nth-child(even) td{
+    background-color: lightgray;
+}
+table tbody tr:hover td {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+#citação{
+    text-align: center;
+}
+
+img{
+    padding: 10px;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
